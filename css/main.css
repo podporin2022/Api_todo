@@ -1,0 +1,117 @@
+
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.20);
+    max-width: 400px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 5px solid cadetblue;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.item-content{
+    position: relative;
+}
+.list{
+    width: 500px;
+}
+.list h1{
+    text-align: center;
+}
+.item{
+    background: skyblue;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.item p{
+    margin-top: 5px;
+}
+.close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.complete{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.complete:hover{
+    border: 2px solid red;
+}
+.close:hover{
+    color: red;
+}
+.item-title{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.item-body{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.todo-complete{
+    background-color: lawngreen;
+}
+.hide-element{
+    display: none;
+}
+.edit-container{
+    display: none;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    text-align: center;
+}
+.edit-container h1{
+    font-size: 24px;
+}
+.edit-container input[type=text]{
+    margin-top: 15px;
+}
+.show{
+    display: block;
+
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+}
+.edit button{
+    margin-top: 15px;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    box-shadow:0 0 2px 1px yellowgreen;
+}
+.active-list{
+    border: 2px solid mediumblue;
+}
+.create{
+    background-color: cadetblue;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 0 5px 2px cadetblue;
+}
+.time{
+    margin-top: 10px;
+}
